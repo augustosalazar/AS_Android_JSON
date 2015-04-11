@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
 
     private ProgressDialog pDialog;
     //private static String url = "http://api.androidhive.info/contacts/";
-    private static String url = "http://api.randomuser.me/?results=2&format=jsaon";
+    private static String url = "http://api.randomuser.me/?results=25&format=jsaon";
     JSONArray usuarios = null;
     ArrayList<DataEntry> listaUsuarios;
     private ListView listView;
