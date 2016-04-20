@@ -145,7 +145,7 @@ public class MainActivity extends ActionBarActivity {
                     Log.d("Response length: ", "> " + usuarios.length());
 
                     for (int i = 0; i < usuarios.length(); i++) {
-                        JSONObject c = usuarios.getJSONObject(i).getJSONObject("user");
+                        JSONObject c = usuarios.getJSONObject(i);
 
                         DataEntry dataEntry = new DataEntry();
 
